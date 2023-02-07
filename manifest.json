@@ -1,0 +1,19 @@
+{
+"name": "Service Worker",
+"version": "1.0",
+"manifest_version": 3,
+"description": "Learning service Worker",
+"permissions": [
+    "tabs"
+],
+"background": {
+    "service_worker": "background.js"
+},
+"action": {
+    "default_title": "Using service worker",
+    "default_popup": "popup.html",
+    "default_icon": {
+        "32": "logo512.png"
+    }
+}
+}
